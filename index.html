@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<!-- displays site properly based on user's device -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 
 		<link
 			rel="icon"
@@ -15,24 +19,35 @@
 		<title>Frontend Mentor | Fylo data storage component</title>
 
 		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-		<style>
-			.attribution {
-				font-size: 11px;
-				text-align: center;
-			}
-			.attribution a {
-				color: hsl(228, 45%, 44%);
-			}
-		</style>
+		<link rel="stylesheet" href="/static/css/index.css" />
 	</head>
 	<body>
-		You’ve used 815 GB of your storage 185 GB Left 0 GB 1000 GB
+		0 GB 1000 GB
+		<div class="rectangular-1">
+			<img class="logo-svg" src="images/logo.svg" />
+			<div class="links">
+				<span class="link-document">
+					<img src="/images/icon-document.svg" alt="icon-document" />
+				</span>
+				<span class="link-folder">
+					<img src="/images/icon-folder.svg" alt="icon-folder" />
+				</span>
+				<span class="link-upload">
+					<img src="/images/icon-upload.svg" alt="icon-upload" />
+				</span>
+			</div>
+		</div>
+		<div class="rectangular-2">
+			<p>You’ve used <strong>815 GB</strong> of your storage 185 GB Left</p>
+			<div class="storage"></div>
+		</div>
+		<img class="bg-desktop" src="images/bg-desktop.svg" />
 
 		<div class="attribution">
 			Challenge by
 			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 				>Frontend Mentor</a
-			>. Coded by <a href="#">Radolf L. Lasa</a>.
+			>. Coded by <a href="https://github.com/flodardev">Radolf L. Lasa</a>.
 		</div>
 	</body>
 </html>

@@ -1,0 +1,97 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #0c122c;
+  padding: 0;
+  margin: 0;
+}
+body .rectangular-1 {
+  position: absolute;
+  left: 17.15%;
+  right: 59.65%;
+  top: 42.78%;
+  bottom: 33.22%;
+  background: #1d2c67;
+  border-radius: 15px 100px 15px 15px;
+}
+body .rectangular-1 .logo-svg {
+  display: block;
+  margin: 50px 50px 30px 50px;
+}
+body .rectangular-1 .links {
+  margin-left: 40px;
+  position: relative;
+}
+body .rectangular-1 .links .link-document {
+  position: absolute;
+  background: #0c122c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+body .rectangular-1 .links .link-folder {
+  position: absolute;
+  background: #0c122c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  left: 80px;
+}
+body .rectangular-1 .links .link-upload {
+  position: absolute;
+  background: #0c122c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  left: 150px;
+}
+body .rectangular-2 {
+  position: absolute;
+  left: 42.78%;
+  right: 17.15%;
+  top: 49.56%;
+  bottom: 33.22%;
+  background: #1d2c67;
+  border-radius: 15px;
+  color: #848794;
+  font-family: "Raleway", sans-serif;
+}
+body .rectangular-2 p {
+  margin: 40px auto 20px 40px;
+}
+body .rectangular-2 p strong {
+  color: #dddbff;
+}
+body .rectangular-2 .storage {
+  background: #0c122c;
+  height: 20px;
+  width: 85%;
+  border-radius: 10px;
+  margin: 0 auto 0 auto;
+}
+body .bg-desktop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 53.33%;
+  bottom: 0;
+  z-index: -1;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: #3e52a3;
+}

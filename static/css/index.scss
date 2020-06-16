@@ -1,0 +1,106 @@
+body {
+	position: relative;
+	width: 1440px;
+	height: 900px;
+	background: hsl(229, 57%, 11%);
+	padding: 0;
+	margin: 0;
+
+	.rectangular-1 {
+		position: absolute;
+		left: 17.15%;
+		right: 59.65%;
+		top: 42.78%;
+		bottom: 33.22%;
+		background: hsl(228, 56%, 26%);
+		border-radius: 15px 100px 15px 15px;
+
+		.logo-svg {
+			display: block;
+			margin: 50px 50px 30px 50px;
+		}
+
+		.links {
+			margin-left: 40px;
+			position: relative;
+			.link-document {
+				position: absolute;
+				background: hsl(229, 57%, 11%);
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				width: 50px;
+				margin-left: 10px;
+			}
+			.link-folder {
+				position: absolute;
+				background: hsl(229, 57%, 11%);
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				width: 50px;
+				left: 80px;
+			}
+			.link-upload {
+				position: absolute;
+				background: hsl(229, 57%, 11%);
+				border-radius: 10px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				width: 50px;
+				left: 150px;
+			}
+		}
+	}
+
+	.rectangular-2 {
+		position: absolute;
+		left: 42.78%;
+		right: 17.15%;
+		top: 49.56%;
+		bottom: 33.22%;
+		background: hsl(228, 56%, 26%);
+		border-radius: 15px;
+		color: hsl(229, 7%, 55%);
+		font-family: "Raleway", sans-serif;
+
+		p {
+			margin: 40px auto 20px 40px;
+			strong {
+				color: hsl(243, 100%, 93%);
+			}
+		}
+
+		.storage {
+			background: hsl(229, 57%, 11%);
+			height: 20px;
+			width: 85%;
+			border-radius: 10px;
+			margin: 0 auto 0 auto;
+		}
+	}
+
+	.bg-desktop {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 53.33%;
+		bottom: 0;
+		z-index: -1;
+	}
+
+	.attribution {
+		font-size: 11px;
+		text-align: center;
+	}
+
+	.attribution a {
+		color: hsl(228, 45%, 44%);
+	}
+}
